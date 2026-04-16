@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "md": "projects/project-01/discr-royal_park_day_care_day_surgery_centre.md",
+      "image": "projects/project-01/01-AJ_hospital_outside.png"
+    },
+    {
+      "md": "projects/project-02/discrt_professional_blog_post.md",
+      "image": "projects/project-02/03.png"
+    },
+    {
+      "md": "projects/project-03/discr-AL_Reem_Hospital.dm",
+      "image": "projects/project-03/01-Al_Reem_Hospital.png"
+    }
+  ]
+}
