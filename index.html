@@ -1,7 +1,88 @@
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daniel Kopytov — Resume</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="#">Daniel Kopytov</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#competencies">Core Competencies</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-inner container">
+        <h1 class="hero-title">Hello, I am Daniel — I work at the intersection of technology, business, and design, bringing 10+ years of international experience, strategic vision, and a user-centered approach to complex initiatives and lasting improvements.</h1>
+        <p class="hero-sub">Leadership • Strategy • Delivery • Design</p>
+        <div class="hero-actions">
+          <a class="btn primary" id="cta-discover" href="#competencies">Discover More</a>
+          <a class="btn ghost" href="assets/DanielKopytov-Resume.pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="competencies" class="container section">
+      <h2>Core Competencies</h2>
+      <div id="competencies-content" class="prose"></div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Professional Experience</h2>
+      <div id="experience-list" class="accordion"></div>
+
+      <h3 class="muted">Additional U.S. Experience</h3>
+      <div id="additional-us" class="prose"></div>
+
+      <h2>Additional Experience</h2>
+      <div id="additional-experience" class="accordion lighter"></div>
+    </section>
+
+    <section id="education" class="container section split">
+      <div>
+        <h2>Education</h2>
+        <div id="education-content" class="prose"></div>
+      </div>
+      <div>
+        <h2>Languages</h2>
+        <div id="languages-content" class="prose"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Selected Projects</h2>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="blog" class="container section">
+      <h2>Blog</h2>
+      <p class="prose">Coming soon — thoughtful short essays on future thinking, technology, and the human-technology interaction. Expect forward-looking perspectives grounded in real delivery experience.</p>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div id="footer-contact" class="prose"></div>
+      <div class="small muted">© Daniel Kopytov — Designed for clarity and professional storytelling.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
